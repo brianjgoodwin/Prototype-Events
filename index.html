@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rumors and Storylines Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Rumor and Event Test</h1>
+
+    <!-- Price Table for Cities -->
+    <h2>City Prices</h2>
+    <table id="prices-table">
+        <thead>
+            <tr>
+                <th>City</th>
+                <th>Grain</th>
+                <th>Wood</th>
+                <th>Iron</th>
+                <th>Wool</th>
+                <th>Leather</th>
+                <th>Spices</th>
+                <th>Wine</th>
+                <th>Precious Metals</th>
+                <th>Salt</th>
+                <th>Pottery</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rows will be dynamically inserted here -->
+        </tbody>
+    </table>
+
+    <!-- Day Progression -->
+    <div>
+        <p>Current Day: <span id="current-day">1</span></p>
+        <button id="next-day-button">Next Day</button>
+    </div>
+
+<!-- Rumor/Event Cards Section -->
+<div id="rumor-news-section">
+    <div class="card-column" id="rumor-column">
+        <h3>Rumors</h3>
+        <div id="rumor-cards-container">
+            <!-- Rumor cards will appear here -->
+        </div>
+    </div>
+
+    <div class="card-column" id="news-column">
+        <h3>News</h3>
+        <div id="news-cards-container">
+            <!-- News cards will appear here -->
+        </div>
+    </div>
+
+    <div class="card-column" id="seasonal-column">
+        <h3>Seasonal Events</h3>
+        <div id="seasonal-cards-container">
+            <!-- Seasonal event cards will appear here -->
+        </div>
+    </div>
+</div>
+
+    <!-- Include only the main script file -->
+    <script type="module" src="js/ui.js"></script>
+</body>
+</html>
